@@ -1,0 +1,17 @@
+.videoFrame {
+  position: relative;
+  text-align: center;
+  iframe {
+    display: inline-block;
+  }
+
+  .status {
+    position: absolute;
+    font-size: 40px;
+    width: 100%;
+    font-style: normal;
+    left: 0;
+    bottom: 30px;
+  }
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Light Weight Preact Widgets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="description" content="preact-widgets-boilerplate">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="preact-boilerplate">
+	<meta name="application-name" content="preact-widgets-boilerplate">
+
+	<link href="https://codepen.io/zouhir/pen/oBWjLj.css" rel="stylesheet"></link>
+
+</head>
+<body>
+	<div class="container">
+	  <div class="logo">
+	    <img src="https://github.com/zouhir/preact-habitat/raw/master/artwork.png?raw=true" alt="Preact Habitat" />
+	  </div>
+	  <h1>Preact Habitat</h1>
+	  <div class="row-center">
+	    <a class="github-button" href="https://github.com/zouhir/preact-habitat" data-icon="octicon-star" data-style="mega" data-count-href="/zouhir/preact-habitat/stargazers" data-count-api="/repos/zouhir/preact-habitat#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star zouhir/preact-habitat on GitHub">Star</a>
+	  </div>
+		<div class="row-center">
+			<a href="https://github.com/zouhir/preact-habitat" class="bold-link">Habitat Docs</a>
+      <a href="https://github.com/zouhir/preact-widgets-boilerplate" class="bold-link">Demo Repo</a>
+		</div>
+	  <p>
+	    preact-habitat is a 1.6kb module that will help you ship your Preact components to any world wide DOM page in a very easy and neat way.
+	  </p>
+    <p>
+      <strong>What's new in v1.0.0:</strong>
+      <br>
+      ✨ Pass props from client's HTML to your components
+      <br>
+      ✨ Bundle multiple independent widgets and mount them seperatly
+      <br>
+      ✨ Mount multiple clones of a widget with different props with new `data-mount` attribute
+    </p>
+	  <h2>Widget 1</h2>
+
+    <div class="demo-box" data-widget="yt-video" data-prop-video-id="3m5qxZm_JqM" data-prop-suggested-by="_f_harmony" data-prop-status="▶️😂"></div>
+
+    <h2>Widget 2</h2>
+    <div class="demo-box" data-widget="yt-video" data-prop-video-id="Ihdp63FaRKA" data-prop-status="💬.. 🤔.. 👆 + ⚛️ "></div>
+
+		<p>Built with 💛 and <a href="https://preactjs.com/">Preact</a> by <a href="http://zouhir.org">Zouhir</a></p>
+	</div>
+
+	<script async src="https://buttons.github.io/buttons.js"></script>
+  <script async src="/build/bundle.js" type="text/javascript" data-mount="yt-video"></script>
+</body>
+</html>
