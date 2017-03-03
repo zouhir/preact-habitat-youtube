@@ -6,7 +6,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
     "start": "serve build -s -c 1 && node ./tools/start.cli.js",
     "prestart": "npm run build",
-    "build": "cross-env NODE_ENV=production webpack -p --progress && node ./tools/build.cli.js",
+    "build": "cross-env webpack -p --progress && node ./tools/build.cli.js",
     "prebuild": "mkdirp build",
     "test": "npm run lint && npm run -s test:karma && node ./tools/test.cli.js",
     "test:karma": "karma start test/karma.conf.js --single-run",
