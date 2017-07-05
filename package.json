@@ -72,13 +72,13 @@
     "webpack-dev-server": "^1.15.0"
   },
   "dependencies": {
-    "preact": "^7.1.0",
+    "preact": "^7.2.1",
     "preact-compat": "^3.0.0",
-    "preact-habitat": "^1.0.0",
+    "preact-habitat": "^2.0.0",
     "promise-polyfill": "^6.0.2",
     "proptypes": "^0.14.3",
     "serve": "^2.0.0",
-    "yt-player": "^2.2.1"
+    "yt-player": "^2.5.2"
   },
   "main": "webpack.config.babel.js",
   "directories": {

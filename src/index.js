@@ -3,7 +3,9 @@ import Widget from './components/widget';
 
 function init() {
   let newTube = habitat(Widget);
+  let anotherNewTube = habitat(Widget);
   newTube.render();
+  anotherNewTube.render({ name: 'data-mount-there', value: 'youtube-three' })
 }
 
 // in development, set up HMR:
